@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+html {
+    position: relative;
+    background-image: url(background.jpg); 
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    max-height: 1080px;
+    min-width: 960px;
+}
+.mainDiv {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    
+    
+    background-repeat: no-repeat;
+}
+.mainHead {
+    color: rgb(77, 77, 175);
+    padding-left: 15px;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+.mainP {
+    padding-left: 15px;
+    
+}
+.header {
+    padding-top: 25px;
+    background-image: url(header.jpg);
+    width: 930px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid darkblue;
+}
+.secondPart {
+    padding-top: 5px;
+    display: inline-block;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.secondFirst {
+    float: left;
+    font-size: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 400px;
+}
+.secondFirst > h1 {
+    font-size: 25px;
+    border-bottom: 1px rgb(179, 179, 179) solid;
+}
+.secondFirst > p {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.secondSecond {
+    float: right;
+    font-size: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 400px;
+}
+.secondSecond > h1 {
+    font-size: 25px;
+    border-bottom: 1px rgb(179, 179, 179) solid;
+}
+.secondSecond > p {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.thirdPart {
+    padding-top: 5px;
+    display: inline-block;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+.thirdFirst {
+    float: left;
+    font-size: 20px;
+    padding: 30px;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 400px;
+}
+.thirdFirst > h1 {
+    font-size: 25px;
+    border-bottom: 1px rgb(179, 179, 179) solid;
+}
+.thirdFirst > p {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.thirdSecond {
+    float: right;
+    font-size: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 400px;
+}
+.thirdSecond > h1 {
+    font-size: 25px;
+    border-bottom: 1px rgb(179, 179, 179) solid;
+}
+.thirdSecond > p {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.clear {
+    clear: both;
+}
+.side {
+    float: right;
+    
+}
+.side > p {
+    padding: 6px;
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+}
+.blue {
+    color: rgb(77, 77, 175);
+}
